@@ -17,8 +17,8 @@ and remembers your worlds, your friends and your old tools; the old consoles' me
 
 [![Vintage](images/vintage-banner.webp)](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview)
 
-Elsewhen is played with **Vintage** ("Classic Minecraft Repainted") by Zombie Miner (@hidyk), tweaked by Team
-UNNAMED, and its interface is the look Elsewhen's own follows. Vintage is not part of Elsewhen: nothing of it is
+Elsewhen is played with **Vintage** ("Classic Minecraft Repainted") by **RedPierrePacks** in collaboration with
+**Team UNNAMED**, and its interface is the look Elsewhen's own follows. Vintage is not part of Elsewhen: nothing of it is
 included, changed or passed on here, and its textures and sounds are its authors' work. Get it from
 [its page on Planet Minecraft](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview) (click the
 banner), or [on Modrinth](https://modrinth.com/resourcepack/vintage).
