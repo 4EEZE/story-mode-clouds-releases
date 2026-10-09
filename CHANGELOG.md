@@ -2,6 +2,36 @@
 
 Elsewhen (Story Mode Clouds until 0.8.0). Each minor version has a code name; its fix releases follow it.
 
+## 0.8.1 "Cranberry"
+
+The memory prototype is on the shelf while its direction is reconsidered. Recipe discovery and
+resource-pack styling of mod interfaces remain part of Elsewhen, alongside its atmosphere and inner voice.
+
+- Shelved the memory screen, personal notes, photographs, research, experiments, idea/concept notes,
+  discovery notifications, invitations to save a place, and their settings and N key. Source and the
+  previous wiki are archived. Existing personal records and photographs remain untouched and do not fade.
+- Kept JEI/EMI recipe discovery independent. Ingredients, stations and crafting reveal recipes, with
+  separate progress for each world and player. Old discoveries are read automatically from the old
+  memory file; new progress uses `config/storymodeclouds-recipes/`. Turn discovery off under
+  **Nostalgia → Recipe discovery** in settings (K) to show everything again.
+- Fixed texture stretching on pack-styled mod panels and large slots. Standard mod buttons and Create's
+  button backgrounds use the active resource pack's button sprites and scaling metadata. Enable
+  **Interface → Mods' Screens in the Pack's Look**; it is off by default and has a per-mod exclusion list.
+- Removed Night Spirits and the wake prototype. Ordinary falling-asleep and waking effects remain.
+- Added horizon-dither cell-size and curve controls; chat uses the thoughts' ink panel; refined slider
+  labels and throttled repeated crafting-slot sounds.
+- Updated README, English/Russian in-game notes and current pack instructions. The prototype wiki now
+  points to its archive and the active documentation.
+
+**Install:** Minecraft 1.21.1, NeoForge 21.1.0 or newer; built against **21.1.256**, Java 21. Client only.
+Install **one** `elsewhen-0.8.1.jar`, replacing the previous Elsewhen/Story Mode Clouds JAR. The release's
+`storymodeclouds-0.8.1.jar` is the same binary for older automatic updaters; do not install both.
+The mod ID and `config/storymodeclouds-client.toml` retain their original names.
+
+**Validation:** clean Gradle build, assertion checks for world isolation, progress migration, corrupt-file
+preservation, station conditions and pack slots/buttons, plus GLSL compilation and Veil reprint checks.
+Minecraft was not launched for this release; in-game recipe-viewer and pack checks remain with the player.
+
 ## 0.8.0 "Cranberry"
 
 > [!CAUTION]
