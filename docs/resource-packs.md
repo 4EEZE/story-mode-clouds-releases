@@ -1,4 +1,4 @@
-# Resource packs for Elsewhen 0.8.1
+# Resource packs for Elsewhen
 
 Use an ordinary Minecraft 1.21.1 resource pack (`pack_format: 34`). Enable it in Options → Resource Packs;
 F3+T reloads it. The mod id and resource namespace remain `storymodeclouds`.
@@ -44,6 +44,9 @@ Enable **Interface → Mods' Screens in the Pack's Look**. It is off by default;
 with its exclusion list. Elsewhen reads the active pack's standard container and button textures,
 including button scaling metadata. Panel grain repeats at its native size, large slot interiors repeat
 within their fixed edges, and ordinary mod buttons and Create's button backgrounds use pack sprites.
+Standard furnace-shaped progress arrows also use the active pack's furnace background and
+`container/furnace/burn_progress` sprite, with cropped progress preserved. Slightly different slot shades
+and rounded tank contours are recognised, while enclosed icons and tiny decorative marks retain their art.
 Coloured artwork and separately drawn icons retain their own textures. Custom renderers that do not use
 these supported drawing paths may keep their original appearance.
 

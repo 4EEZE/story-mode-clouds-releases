@@ -2,6 +2,19 @@
 
 Elsewhen (Story Mode Clouds until 0.8.0). Each minor version has a code name; its fix releases follow it.
 
+## 0.8.2 "Cranberry" — 2026-10-10
+
+- Classic running brings back the early swinging arms for players, switchable under Nostalgia, with
+  automatic activation on April 1 and May 17 by the local date. The manual switch is off by default;
+  the independent holiday switch is on by default.
+- Horizon cell size has two choices: 0.5 (one screen pixel) and 1.0 (two pixels) at full world resolution.
+  The default stays 1.0; old larger values are capped at 1.0 and intermediate values round to whole pixels.
+  Reduced world rendering limits the finer grain. The original Bayer pattern remains.
+- Standard furnace-shaped arrows in mod textures take the active pack's empty and filled furnace arrow.
+  Cropped progress still fills at the original rate, including Farmer's Delight and Brewin' and Chewin'.
+- Slot contours tolerate small shade differences and follow rounded/recessed shapes. The keg's tank and
+  container slots receive pack textures while embedded icons, its opening and tiny bubble marks remain.
+
 ## 0.8.1 "Cranberry"
 
 The memory prototype is on the shelf while its direction is reconsidered. Recipe discovery and
