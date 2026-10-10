@@ -10,6 +10,18 @@ In **0.8.1**, the memory/research/experiment prototype is on the shelf while its
 Its screen, N key, settings and notifications are absent. Existing notes and photographs are retained,
 unchanged and without forgetting. The ordinary inner voice and its nostalgia remain.
 
+## New in 0.8.2
+
+- **Classic running:** the early swinging-arm animation, switchable under **Nostalgia** in settings (K).
+  The manual switch is off by default; a separate holiday switch is on, enabling it on April 1 and
+  May 17, Minecraft's birthday, by your local date. Turn both off to keep the usual run all year.
+- **Finer horizon dither:** 0.5 gives one screen pixel per cell and 1.0 gives two at full world
+  resolution. The original Bayer pattern remains, with 1.0 as the default.
+- **Pack-styled progress arrows:** standard furnace-shaped arrows in mod interfaces use the active
+  pack's empty and filled arrows, including Farmer's Delight and Brewin' and Chewin'.
+- **Pack-styled slots:** rounded/recessed contours and keg tanks follow the pack while keeping their
+  embedded icons, openings and bubble marks.
+
 ## Recipe discovery
 
 JEI and EMI reveal recipes through familiar ingredients and stations, or after crafting an item. Small
@@ -26,7 +38,7 @@ personal records. Keep the old folder if you want to return to the prototype lat
 [![Vintage](images/vintage-banner.webp)](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview)
 
 Enable **Interface → Mods' Screens in the Pack's Look** to apply your active resource pack's textures to
-supported mod panels, slots and buttons, including Create buttons. Panel grain and slot interiors keep
+supported mod panels, slots, progress arrows and buttons, including Create buttons. Panel grain and slot interiors keep
 their texture scale. The setting is off by default and has a per-mod exclusion list.
 
 Elsewhen is played with **Vintage** (“Classic Minecraft Repainted”) by **RedPierrePacks**. Vintage is a
@@ -37,11 +49,11 @@ or [Modrinth](https://modrinth.com/resourcepack/vintage). Other compatible activ
 ## Install
 
 Minecraft **1.21.1**, NeoForge **21.1.0 or newer**, Java **21**; built against **21.1.256**. Client only;
-any server will take you. Download **one** `elsewhen-0.8.1.jar` from the
+any server will take you. Download **one** `elsewhen-0.8.2.jar` from the
 [latest release](https://github.com/4EEZE/story-mode-clouds-releases/releases/latest), replace the old
 Elsewhen/Story Mode Clouds JAR in `mods`, and keep only one copy.
 
-The release also carries the identical `storymodeclouds-0.8.1.jar` for older automatic updaters;
+The release also carries the identical `storymodeclouds-0.8.2.jar` for older automatic updaters;
 **do not install both**. The mod ID and `config/storymodeclouds-client.toml` keep their original names,
 so settings and saved discoveries remain compatible. New versions are offered on the title screen.
 
@@ -52,7 +64,7 @@ so settings and saved discoveries remain compatible. New versions are offered on
 - [Archived wiki](archive/wiki-0.8.0/Home.md): the previous prototype documentation, kept for reference.
 - Found a bug? Open an [issue](https://github.com/4EEZE/story-mode-clouds-releases/issues).
 
-The 0.8.1 clean build, migration checks and shader checks pass. Minecraft was not launched for this
-release; recipe viewers and pack styling still need an in-game check after updating.
+The 0.8.2 build, SelfCheck and all 28 shader-stage checks pass. The author checked the installed build
+in game and approved its release. The agent did not launch Minecraft.
 
 The mod is vibecoded: written by LLMs, directed and tested in game by its author.
