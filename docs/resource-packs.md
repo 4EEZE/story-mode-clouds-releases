@@ -50,8 +50,7 @@ and rounded tank contours are recognised, while enclosed icons and tiny decorati
 Coloured artwork and separately drawn icons retain their own textures. Custom renderers that do not use
 these supported drawing paths may keep their original appearance.
 
-Vintage is a separate resource pack and is not included in Elsewhen. Any compatible active pack can
-supply the textures.
+The textures come from whichever pack is active; Elsewhen includes none of them.
 
 ## Inner voice and biome colours
 

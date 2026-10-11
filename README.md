@@ -31,18 +31,12 @@ Progress is separate for each world and player. Existing discoveries are read fr
 `config/storymodeclouds-memory/` file; new progress uses `config/storymodeclouds-recipes/` without changing
 personal records. Keep the old folder if you want to return to the prototype later.
 
-## The interface: Vintage
-
-[![Vintage](images/vintage-banner.webp)](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview)
+## Mods' screens in your pack's look
 
 Enable **Interface → Mods' Screens in the Pack's Look** to apply your active resource pack's textures to
 supported mod panels, slots, progress arrows and buttons, including Create buttons. Panel grain and slot interiors keep
-their texture scale. The setting is off by default and has a per-mod exclusion list.
-
-Elsewhen is played with **Vintage** (“Classic Minecraft Repainted”) by **RedPierrePacks**. Vintage is a
-separate resource pack: its textures and sounds are its authors' work and are not included or redistributed
-here. Get it from [Planet Minecraft](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview)
-or [Modrinth](https://modrinth.com/resourcepack/vintage). Other compatible active packs work too.
+their texture scale. Any pack that repaints vanilla's screens works; Elsewhen includes none of its textures.
+The setting is off by default and has a per-mod exclusion list.
 
 ## Install
 
