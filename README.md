@@ -40,6 +40,8 @@ The setting is off by default and has a per-mod exclusion list.
 
 ## Recommended pack
 
+[![Vintage](images/vintage-banner.webp)](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview)
+
 **Vintage** ("Classic Minecraft Repainted") by **RedPierrePacks** suits Elsewhen's mood and complements
 playing with it. It is a separate resource pack, and nothing of it is included in Elsewhen: get it from
 [Modrinth](https://modrinth.com/resourcepack/vintage) or
