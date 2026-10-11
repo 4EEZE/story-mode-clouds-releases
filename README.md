@@ -10,17 +10,15 @@ In **0.8.1**, the memory/research/experiment prototype is on the shelf while its
 Its screen, N key, settings and notifications are absent. Existing notes and photographs are retained,
 unchanged and without forgetting. The ordinary inner voice and its nostalgia remain.
 
-## New in 0.8.2
+## New in 0.8.3
 
-- **Classic running:** the early swinging-arm animation, switchable under **Nostalgia** in settings (K).
-  The manual switch is off by default; a separate holiday switch is on, enabling it on April 1 and
-  May 17, Minecraft's birthday, by your local date. Turn both off to keep the usual run all year.
-- **Finer horizon dither:** 0.5 gives one screen pixel per cell and 1.0 gives two at full world
-  resolution. The original Bayer pattern remains, with 1.0 as the default.
-- **Pack-styled progress arrows:** standard furnace-shaped arrows in mod interfaces use the active
-  pack's empty and filled arrows, including Farmer's Delight and Brewin' and Chewin'.
-- **Pack-styled slots:** rounded/recessed contours and keg tanks follow the pack while keeping their
-  embedded icons, openings and bubble marks.
+- **Era profiles (a trial):** under **Nostalgia** in settings (K), **Alpha · v1.1.2_01**, **Beta · 1.7.3**
+  and **Legacy** apply editable settings: early light and palettes, an even haze, Legacy's console gamma
+  and one layer of plain cube clouds. Textures, sounds and performance stay yours.
+- **Undo preset** returns the settings you had before the first profile, even after a restart.
+- **Weather preview** in settings cycles current, rain and clear.
+- **Fixes:** haze in a cloud's dissolved holes, unreadable memory files left untouched, and a settings
+  screen that always closes. See the [changelog](CHANGELOG.md) for everything since 0.8.2.
 
 ## Recipe discovery
 
@@ -49,11 +47,11 @@ or [Modrinth](https://modrinth.com/resourcepack/vintage). Other compatible activ
 ## Install
 
 Minecraft **1.21.1**, NeoForge **21.1.0 or newer**, Java **21**; built against **21.1.256**. Client only;
-any server will take you. Download **one** `elsewhen-0.8.2.jar` from the
+any server will take you. Download **one** `elsewhen-0.8.3.jar` from the
 [latest release](https://github.com/4EEZE/story-mode-clouds-releases/releases/latest), replace the old
 Elsewhen/Story Mode Clouds JAR in `mods`, and keep only one copy.
 
-The release also carries the identical `storymodeclouds-0.8.2.jar` for older automatic updaters;
+The release also carries the identical `storymodeclouds-0.8.3.jar` for older automatic updaters;
 **do not install both**. The mod ID and `config/storymodeclouds-client.toml` keep their original names,
 so settings and saved discoveries remain compatible. New versions are offered on the title screen.
 
@@ -64,7 +62,7 @@ so settings and saved discoveries remain compatible. New versions are offered on
 - [Archived wiki](archive/wiki-0.8.0/Home.md): the previous prototype documentation, kept for reference.
 - Found a bug? Open an [issue](https://github.com/4EEZE/story-mode-clouds-releases/issues).
 
-The 0.8.2 build, SelfCheck and all 28 shader-stage checks pass. The author checked the installed build
-in game and approved its release. The agent did not launch Minecraft.
+The 0.8.3 build passes SelfCheck, all 28 shader-stage checks and Veil's shader reprint. The author played
+its previews in game and asked for the release. The agent did not launch Minecraft.
 
 The mod is vibecoded: written by LLMs, directed and tested in game by its author.

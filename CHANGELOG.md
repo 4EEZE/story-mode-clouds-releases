@@ -2,6 +2,23 @@
 
 Elsewhen (Story Mode Clouds until 0.8.0). Each minor version has a code name; its fix releases follow it.
 
+## 0.8.3 "Cranberry" — 2026-10-11
+
+- Era profiles under Nostalgia, a trial: Alpha v1.1.2_01, Beta 1.7.3 and Legacy apply editable settings.
+  Alpha and Beta take the neutral light curve before Beta 1.8 and their early palettes with an even haze;
+  Legacy takes a light console gamma (1.5). Each gives one layer of plain cubes for clouds, at 108, or 128
+  for Legacy. Textures, sounds, performance and the holiday running switch stay yours.
+- Undo preset returns the profile's settings to what they were before the first application. The return
+  point survives Done, reopening and restarting; Cancel also restores the one that existed on opening.
+- New settings, neutral by default: Light → Light before Beta 1.8, Air → Early biome palette and
+  Colour Grade → Console gamma. Four Alpha/Beta colours are credited to Modern Beta under MIT.
+- The weather preview in settings cycles current, rain and clear, and restores the weather on closing.
+- The world keeps its haze in a cloud's dissolved holes; the dark patches around buildings are gone.
+- Unreadable inner-voice memories are left on disk unchanged instead of being replaced with an empty file.
+  The updater offers a release to the previews before it.
+- The settings screen always closes, even when the preset return point cannot be saved (the log says
+  why). Classic running gives way to mods that rewrite the player's pose instead of stopping the game.
+
 ## 0.8.2 "Cranberry" — 2026-10-10
 
 - Classic running brings back the early swinging arms for players, switchable under Nostalgia, with
