@@ -38,6 +38,13 @@ supported mod panels, slots, progress arrows and buttons, including Create butto
 their texture scale. Any pack that repaints vanilla's screens works; Elsewhen includes none of its textures.
 The setting is off by default and has a per-mod exclusion list.
 
+## Recommended pack
+
+**Vintage** ("Classic Minecraft Repainted") by **RedPierrePacks** suits Elsewhen's mood and complements
+playing with it. It is a separate resource pack, and nothing of it is included in Elsewhen: get it from
+[Modrinth](https://modrinth.com/resourcepack/vintage) or
+[Planet Minecraft](https://www.planetminecraft.com/texture-pack/vanilla-mix-w-i-p-preview).
+
 ## Install
 
 Minecraft **1.21.1**, NeoForge **21.1.0 or newer**, Java **21**; built against **21.1.256**. Client only;
